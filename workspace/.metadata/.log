@@ -1,0 +1,349 @@
+!SESSION 2013-08-28 23:21:30.801 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.equinox.ds 4 0 2013-08-28 23:21:41.598
+!MESSAGE 
+!STACK 0
+org.osgi.framework.BundleException: The bundle could not be resolved. Reason: Missing Constraint: Import-Package: org.eclipse.equinox.internal.util.event; version="1.0.0"
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolverError(AbstractBundle.java:1313)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1297)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:309)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.resume(AbstractBundle.java:370)
+	at org.eclipse.osgi.framework.internal.core.Framework.resumeBundle(Framework.java:1068)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.resumeBundles(StartLevelManager.java:557)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.incFWSL(StartLevelManager.java:464)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:248)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.dispatchEvent(StartLevelManager.java:445)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:227)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:337)
+
+!ENTRY org.eclipse.ui 4 4 2013-08-28 23:23:07.082
+!MESSAGE Unable to find view with id: com.crt.swv.views.SwvViews, when creating perspective com.crt.lite.perspective.CRTPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-08-28 23:29:42.707
+!MESSAGE Indexed 'CMSISv1p30_LPC17xx' (2 sources, 22 headers) in 1,56 sec: 1.184 declarations; 2.086 references; 5 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-08-28 23:29:43.379
+!MESSAGE Indexed 'uart' (3 sources, 15 headers) in 0,64 sec: 1.207 declarations; 2.302 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY com.crt.log 1 0 2013-08-28 23:36:56.754
+!MESSAGE Drivers loaded in 39906 milliseconds
+
+!ENTRY com.crt.ctrlcenter 4 -1 2013-08-28 23:36:56.754
+!MESSAGE Error received while booting LPC-Link v1.1:
+Timeout waiting for LPC-Link v1.1 initialization: Timeout waiting for LPC-Link v1.1 to initialize.
+
+
+!ENTRY com.crt.log 1 0 2013-08-28 23:39:30.020
+!MESSAGE Drivers loaded in 130250 milliseconds
+
+!ENTRY com.crt.ctrlcenter 4 -1 2013-08-28 23:39:30.020
+!MESSAGE Error received while booting LPC-Link v1.1:
+Timeout waiting for LPC-Link v1.1 initialization: Timeout waiting for LPC-Link v1.1 to initialize.
+
+
+!ENTRY com.crt.log 1 0 2013-08-29 00:51:20.629
+!MESSAGE Drivers loaded in 34875 milliseconds
+
+!ENTRY com.crt.ctrlcenter 4 -1 2013-08-29 00:51:20.645
+!MESSAGE Error received while booting LPC-Link v1.1:
+Timeout waiting for LPC-Link v1.1 initialization: Timeout waiting for LPC-Link v1.1 to initialize.
+
+!SESSION 2006-11-01 00:06:50.656 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.crt.log 1 0 2013-08-30 00:08:33.296
+!MESSAGE Drivers loaded in 45687 milliseconds
+!SESSION 2013-08-30 10:21:26.203 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.crt.log 1 0 2013-08-30 12:24:33.640
+!MESSAGE Drivers loaded in 1969 milliseconds
+!SESSION 2013-08-30 14:12:16.703 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-08-30 14:12:22.546
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-08-30 14:24:12.562
+!MESSAGE Indexed 'Lib_Board' (12 sources, 47 headers) in 1,75 sec: 2.471 declarations; 4.806 references; 5 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-08-30 14:24:13.015
+!MESSAGE Indexed 'Lib_CMSISv2p00_LPC17xx' (2 sources, 24 headers) in 0,42 sec: 1.199 declarations; 2.134 references; 5 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-08-30 14:24:15.406
+!MESSAGE Indexed 'Lib_MCU' (21 sources, 46 headers) in 2,38 sec: 4.016 declarations; 19.570 references; 5 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2013-08-30 14:24:16.140
+!MESSAGE Indexed 'xbee_node' (4 sources, 33 headers) in 0,73 sec: 2.679 declarations; 4.220 references; 3 unresolved inclusions; 0 syntax errors; 0 unresolved names (0,00%)
+
+!ENTRY org.eclipse.ui.console 4 120 2013-08-30 14:54:34.062
+!MESSAGE Error logged from Console plug-in: 
+!STACK 0
+java.io.IOException: Document is closed
+	at org.eclipse.ui.internal.console.IOConsolePartitioner.streamAppended(IOConsolePartitioner.java:453)
+	at org.eclipse.ui.console.IOConsoleOutputStream.notifyParitioner(IOConsoleOutputStream.java:245)
+	at org.eclipse.ui.console.IOConsoleOutputStream.encodedWrite(IOConsoleOutputStream.java:240)
+	at org.eclipse.ui.console.IOConsoleOutputStream.write(IOConsoleOutputStream.java:225)
+	at org.eclipse.ui.console.MessageConsoleStream.print(MessageConsoleStream.java:56)
+	at com.crt.debugmgr.mi.ConsoleDisplayMgr.print(ConsoleDisplayMgr.java:159)
+	at com.crt.debugmgr.mi.ConsoleDisplayMgr.println(ConsoleDisplayMgr.java:171)
+	at com.crt.debugmgr.mi.ConsoleStreamer.handleStream(ConsoleStreamer.java:427)
+	at com.crt.debugmgr.mi.ConsoleStreamer.bufferReceived(ConsoleStreamer.java:238)
+	at com.crt.debugmgr.server.StubServer$ServerNotifier.run(StubServer.java:89)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at com.crt.debugmgr.server.StubServer$ServerNotifier.notifyBufferReceived(StubServer.java:76)
+	at com.crt.debugmgr.server.StubServer.firePacketReceived(StubServer.java:258)
+	at com.crt.debugmgr.server.StubServer.dispatcher(StubServer.java:198)
+	at com.crt.debugmgr.server.StubServer$1.run(StubServer.java:325)
+	at java.lang.Thread.run(Unknown Source)
+
+!ENTRY org.eclipse.osgi 4 0 2013-08-30 14:54:34.421
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.cdt.debug.mi.core (51).
+!STACK 0
+org.osgi.framework.BundleException: The state indicates the bundle is resolved
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1296)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:309)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at com.crt.debugmgr.mi.CommandHandler.parseOutputToStatus(CommandHandler.java:429)
+	at com.crt.debugmgr.mi.CommandHandler.postCommand(CommandHandler.java:557)
+	at com.crt.debugmgr.mi.CRTDebugManager.postCommand(CRTDebugManager.java:1035)
+	at com.crt.ctrlcenter.launch.CRTMCUDebugger.miTarget(CRTMCUDebugger.java:1191)
+	at com.crt.ctrlcenter.launch.CRTMCUDebugger.startStub(CRTMCUDebugger.java:1380)
+	at com.crt.ctrlcenter.launch.CRTMCUDebugger.executeStartupScript(CRTMCUDebugger.java:677)
+	at com.crt.ctrlcenter.launch.CRTMCUDebugger.doStartSession(CRTMCUDebugger.java:528)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:84)
+	at com.crt.ctrlcenter.launch.CRTMCUDebugger.createSession(CRTMCUDebugger.java:433)
+	at com.crt.ctrlcenter.launch.CRTMCULaunchConfigurationDelegate.syncLaunch(CRTMCULaunchConfigurationDelegate.java:263)
+	at com.crt.ctrlcenter.launch.CRTMCULaunchConfigurationDelegate.launch(CRTMCULaunchConfigurationDelegate.java:193)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 4 0 2013-08-30 14:54:34.421
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.cdt.debug.core (50).
+!STACK 0
+org.osgi.framework.BundleException: The state indicates the bundle is resolved
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1296)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:309)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.cdt.debug.mi.core.cdi.Session.terminate(Session.java:206)
+	at org.eclipse.cdt.debug.mi.core.AbstractGDBCDIDebugger.createSession(AbstractGDBCDIDebugger.java:97)
+	at com.crt.ctrlcenter.launch.CRTMCUDebugger.createSession(CRTMCUDebugger.java:433)
+	at com.crt.ctrlcenter.launch.CRTMCULaunchConfigurationDelegate.syncLaunch(CRTMCULaunchConfigurationDelegate.java:263)
+	at com.crt.ctrlcenter.launch.CRTMCULaunchConfigurationDelegate.launch(CRTMCULaunchConfigurationDelegate.java:193)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:866)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1069)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 4 0 2013-08-30 14:54:34.421
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.ui.workbench (233).
+!STACK 0
+org.osgi.framework.BundleException: The state indicates the bundle is resolved
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1296)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:309)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.ui.internal.progress.ProgressMonitorFocusJobDialog$4.done(ProgressMonitorFocusJobDialog.java:216)
+	at org.eclipse.ui.internal.progress.ProgressManager$JobMonitor.done(ProgressManager.java:235)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1089)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.eclipse.osgi 4 0 2013-08-30 14:54:34.437
+!MESSAGE An error occurred while automatically activating bundle org.eclipse.equinox.common (108).
+!STACK 0
+org.osgi.framework.BundleException: The state indicates the bundle is resolved
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.getResolutionFailureException(AbstractBundle.java:1296)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.startWorker(BundleHost.java:309)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:280)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.SingleSourcePackage.loadClass(SingleSourcePackage.java:33)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:454)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:74)
+!SESSION 2013-08-30 14:52:28.421 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY com.crt.log 1 0 2013-08-30 14:55:25.421
+!MESSAGE Drivers loaded in 2671 milliseconds
+!SESSION 2013-09-03 22:33:10.328 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-03 22:43:24.500
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-03 22:43:24.578
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-03 22:43:24.578
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-03 22:43:24.578
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-03 22:43:24.593
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-03 22:43:24.593
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-03 22:43:24.609
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-03 22:43:24.609
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-03 22:43:24.625
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-03 22:43:24.625
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-03 22:43:24.640
+!MESSAGE 
+!SESSION 2013-09-17 10:02:21.062 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_24
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=es_AR
+Command-line arguments:  -os win32 -ws win32 -arch x86
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 11:19:32.796
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 11:19:32.828
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 11:19:32.843
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 11:19:32.875
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 11:34:18.468
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 11:34:18.468
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 11:34:18.515
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 11:34:18.515
+!MESSAGE 
+
+!ENTRY com.crt.log 1 0 2013-09-17 11:44:35.984
+!MESSAGE Drivers loaded in 1781 milliseconds
+
+!ENTRY com.crt.log 1 0 2013-09-17 11:52:35.250
+!MESSAGE Drivers loaded in 1844 milliseconds
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:21.890
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:21.906
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:21.906
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.000
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.000
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.156
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.187
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.203
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.203
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.218
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.234
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.234
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.250
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.265
+!MESSAGE 
+
+!ENTRY org.eclipse.core.runtime 8 1 2013-09-17 12:14:22.281
+!MESSAGE 
